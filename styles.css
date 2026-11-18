@@ -54,7 +54,7 @@ h1 em { font-size: .98em; letter-spacing: -.065em; }
 .wrap { width: min(1120px, calc(100% - 72px)); }
 .masthead { grid-template-columns: 1fr auto; gap: 14px 28px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 800; }
-.monogram { display: grid; place-items: center; width: 38px; height: 38px; flex: 0 0 38px; border-radius: 50%; background: var(--forest); color: var(--lime); font: italic 1.28rem var(--serif); }
+.brand-badge { width: 40px; height: 40px; flex: 0 0 40px; }
 nav { flex-wrap: wrap; }
 nav a { display: inline-flex; align-items: center; min-height: 44px; }
 .hero { grid-template-columns: minmax(0,1.25fr) minmax(0,.75fr); padding-block: clamp(45px,7vw,94px); }
@@ -63,9 +63,8 @@ h1 em { display: block; }
 .hero-description { max-width: 46ch; }
 .text-link { font-size: .93rem; font-weight: 700; text-underline-offset: .24em; }
 .text-link:hover { color: var(--green); }
-.portrait { position: relative; padding: 11px; border: 1px solid #c6d4c0; border-radius: 49% 49% 18px 18px / 44% 44% 18px 18px; background: #e9efdf; }
-.portrait img { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: 50% 40%; border-radius: inherit; }
-.portrait::after { content: ''; position: absolute; pointer-events: none; inset: 5px; border: 1px solid #f6f6ed92; border-radius: inherit; }
+.portrait { border-radius: 18px; overflow: hidden; background: #e9efdf; }
+.portrait img { width: 100%; aspect-ratio: 1; object-fit: cover; }
 .section { padding-block: clamp(52px,7vw,92px); border-top: 1px solid var(--line); }
 h2 { font-size: clamp(2.5rem,5.8vw,5rem); line-height: .96; letter-spacing: -.06em; }
 .section-label { color: var(--green); margin-bottom: 13px; }
@@ -98,8 +97,7 @@ h2 { font-size: clamp(2.5rem,5.8vw,5rem); line-height: .96; letter-spacing: -.06
   .wrap { width: calc(100% - 36px); }
   .hero { grid-template-columns: minmax(0,1fr); gap: 30px; }
   h1 { font-size: clamp(2.65rem,11.3vw,5.3rem); }
-  .portrait { width: min(78%,360px); justify-self: center; }
-  .portrait img { aspect-ratio: 1; }
+  .portrait { width: min(100%,380px); justify-self: start; }
   .project-grid, .about { grid-template-columns: minmax(0,1fr); }
 }
 @media (max-width: 550px) {
