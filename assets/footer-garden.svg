@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 110">
+  <defs>
+    <g id="sprig">
+      <path d="M0 0Q2-22 14-47" fill="none" stroke="#567b4f" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M4-18Q-9-18-12-30Q0-29 4-18ZM7-25Q16-36 25-35Q20-24 7-25ZM11-37Q3-38 4-48Q12-46 11-37ZM13-44Q14-53 22-57Q22-48 13-44Z" fill="currentColor"/>
+    </g>
+    <g id="daisy">
+      <path d="M0 0Q5-25-5-54" fill="none" stroke="#5d8054" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M1-17Q-13-18-16-27Q-5-26 1-17ZM0-28Q7-40 17-37Q13-28 0-28Z" fill="#8fa674"/>
+      <g transform="translate(-5 -55)" fill="#fffcf1" stroke="#a29c73" stroke-width=".6">
+        <ellipse rx="3.3" ry="7" cy="-5.5"/>
+        <ellipse rx="3.3" ry="7" cy="-5.5" transform="rotate(60)"/>
+        <ellipse rx="3.3" ry="7" cy="-5.5" transform="rotate(120)"/>
+        <ellipse rx="3.3" ry="7" cy="-5.5" transform="rotate(180)"/>
+        <ellipse rx="3.3" ry="7" cy="-5.5" transform="rotate(240)"/>
+        <ellipse rx="3.3" ry="7" cy="-5.5" transform="rotate(300)"/>
+        <circle r="3.6" fill="#d7a94b" stroke="none"/>
+      </g>
+    </g>
+    <g id="poppy">
+      <path d="M0 0Q-8-29 5-59" fill="none" stroke="#567b4f" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M-2-19Q-15-20-17-34Q-6-31-2-19ZM-1-36Q9-47 16-43Q11-35-1-36Z" fill="#799462"/>
+      <path d="M5-58C-6-55-12-66-5-71C-1-74 3-71 5-68C10-75 20-71 18-65C17-61 12-58 5-58Z" fill="currentColor" stroke="#8e685b" stroke-width=".6"/>
+      <path d="M5-60L1-65M6-60L9-65" stroke="#8e685b" stroke-width=".8" stroke-linecap="round"/>
+      <circle cx="5" cy="-61" r="1.8" fill="#a07548"/>
+    </g>
+    <g id="lavender">
+      <path d="M0 0Q3-33-8-71M1-15Q11-36 14-53" fill="none" stroke="#648555" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M0-18Q-9-20-14-30Q-4-28 0-18ZM7-32Q16-36 19-44Q9-41 7-32Z" fill="#8ca571"/>
+      <g fill="currentColor">
+        <ellipse cx="-8" cy="-70" rx="2.8" ry="4.6" transform="rotate(-22 -8 -70)"/>
+        <ellipse cx="-8" cy="-63" rx="3" ry="4" transform="rotate(-40 -8 -63)"/>
+        <ellipse cx="-3" cy="-61" rx="3" ry="4" transform="rotate(28 -3 -61)"/>
+        <ellipse cx="-6" cy="-56" rx="3" ry="3.6" transform="rotate(-45 -6 -56)"/>
+        <ellipse cx="-1" cy="-53" rx="2.8" ry="3.5" transform="rotate(34 -1 -53)"/>
+        <ellipse cx="14" cy="-53" rx="2.3" ry="3.8" transform="rotate(18 14 -53)"/>
+        <ellipse cx="12" cy="-47" rx="2.6" ry="3.4" transform="rotate(-34 12 -47)"/>
+        <ellipse cx="16" cy="-44" rx="2.6" ry="3.1" transform="rotate(38 16 -44)"/>
+      </g>
+    </g>
+    <g id="grass">
+      <path d="M0 0Q-4-15-17-24Q-12-10-5 0ZM-1 0Q-3-18 2-31Q8-18 4 0ZM3 0Q10-18 22-19Q15-7 9 0Z" fill="currentColor"/>
+    </g>
+    <g id="grass-blades">
+      <path d="M0 0Q-2-17-15-28Q-10-13-5 0ZM-1 0Q1-16-4-35Q7-23 4 0ZM4 0Q11-20 22-25Q15-13 9 0ZM8 0Q17-11 27-11Q20-5 15 0Z" fill="currentColor"/>
+    </g>
+  </defs>
+
+  <path d="M0 94Q31 86 65 94T133 94T201 94T269 94T337 94T405 94T473 94T541 94T609 94T677 94T745 94Q782 87 820 94V110H0Z" fill="#dce7cc"/>
+  <g>
+    <use href="#grass-blades" transform="translate(26 106) scale(.67)" color="#b2c598"/>
+    <use href="#grass-blades" transform="translate(86 107) scale(-.8 .8)" color="#9eb789"/>
+    <use href="#grass-blades" transform="translate(138 107) scale(.6)" color="#a8bd91"/>
+    <use href="#grass-blades" transform="translate(194 107) scale(.85)" color="#abc196"/>
+    <use href="#grass-blades" transform="translate(238 107) scale(-.71 .71)" color="#9eb789"/>
+    <use href="#grass-blades" transform="translate(289 107) scale(.64)" color="#b2c598"/>
+    <use href="#grass-blades" transform="translate(345 107) scale(.82)" color="#9eb789"/>
+    <use href="#grass-blades" transform="translate(365 106) scale(-.55 .55)" color="#b2c598"/>
+    <use href="#grass-blades" transform="translate(402 107) scale(-.72 .72)" color="#9eb789"/>
+    <use href="#grass-blades" transform="translate(446 107) scale(.63)" color="#abc196"/>
+    <use href="#grass-blades" transform="translate(501 107) scale(-.69 .69)" color="#a8bd91"/>
+    <use href="#grass-blades" transform="translate(550 107) scale(.73)" color="#9eb789"/>
+    <use href="#grass-blades" transform="translate(605 107) scale(-.87 .87)" color="#abc196"/>
+    <use href="#grass-blades" transform="translate(666 107) scale(.63)" color="#b2c598"/>
+    <use href="#grass-blades" transform="translate(719 107) scale(-.67 .67)" color="#9eb789"/>
+    <use href="#grass-blades" transform="translate(771 106) scale(.8)" color="#a8bd91"/>
+  </g>
+  <g>
+    <use href="#sprig" transform="translate(38 105) scale(.76)" color="#a0b585"/>
+    <use href="#lavender" transform="translate(81 106) rotate(-8) scale(.88)" color="#a393b6"/>
+    <use href="#daisy" transform="translate(105 105) rotate(9) scale(.76)"/>
+    <use href="#poppy" transform="translate(130 105) scale(.98)" color="#ce8c79"/>
+    <use href="#daisy" transform="translate(153 106) rotate(14) scale(.62)"/>
+    <use href="#sprig" transform="translate(178 107) scale(.68)" color="#78955f"/>
+
+    <use href="#sprig" transform="translate(255 105) scale(-.8 .8)" color="#9cb183"/>
+    <use href="#daisy" transform="translate(278 105) rotate(-13) scale(.9)"/>
+    <use href="#lavender" transform="translate(300 106) rotate(9) scale(1.03)" color="#9b8cad"/>
+    <use href="#poppy" transform="translate(324 105) rotate(11) scale(.72)" color="#e1b457"/>
+    <use href="#daisy" transform="translate(359 106) rotate(10) scale(.55)"/>
+
+    <use href="#sprig" transform="translate(434 107) scale(.66)" color="#91a774"/>
+    <use href="#poppy" transform="translate(457 106) rotate(-10) scale(.9)" color="#d59b92"/>
+    <use href="#daisy" transform="translate(481 104) rotate(-5) scale(1.03)"/>
+    <use href="#poppy" transform="translate(506 107) rotate(13) scale(.73)" color="#dcb15c"/>
+    <use href="#lavender" transform="translate(533 106) rotate(11) scale(.86)" color="#b098b6"/>
+    <use href="#sprig" transform="translate(559 106) scale(.77)" color="#819f6d"/>
+
+    <use href="#sprig" transform="translate(620 106) scale(-.73 .73)" color="#91a774"/>
+    <use href="#daisy" transform="translate(650 105) rotate(-7) scale(.64)"/>
+    <use href="#poppy" transform="translate(673 105) rotate(-7) scale(.97)" color="#c98574"/>
+    <use href="#lavender" transform="translate(696 105) scale(.82)" color="#a38bb0"/>
+    <use href="#daisy" transform="translate(718 106) rotate(18) scale(.82)"/>
+    <use href="#sprig" transform="translate(749 107) scale(.63)" color="#819f6d"/>
+    <use href="#daisy" transform="translate(792 106) scale(.58)"/>
+  </g>
+  <g>
+    <use href="#grass" transform="translate(12 110) scale(.68)" color="#9aaf82"/>
+    <use href="#grass" transform="translate(58 110) scale(.9)" color="#789764"/>
+    <use href="#grass" transform="translate(111 110) scale(.6)" color="#9aaf82"/>
+    <use href="#grass" transform="translate(168 110) scale(.8)" color="#789764"/>
+    <use href="#grass" transform="translate(215 110) scale(.78)" color="#a2b586"/>
+    <use href="#grass" transform="translate(265 110) scale(.68)" color="#789764"/>
+    <use href="#grass" transform="translate(315 110) scale(.93)" color="#9aaf82"/>
+    <use href="#grass" transform="translate(385 110) scale(.65)" color="#789764"/>
+    <use href="#grass" transform="translate(422 110) scale(.85)" color="#a2b586"/>
+    <use href="#grass" transform="translate(470 110) scale(.62)" color="#789764"/>
+    <use href="#grass" transform="translate(524 110) scale(.86)" color="#9aaf82"/>
+    <use href="#grass" transform="translate(585 110) scale(.76)" color="#789764"/>
+    <use href="#grass" transform="translate(641 110) scale(.86)" color="#9aaf82"/>
+    <use href="#grass" transform="translate(689 110) scale(.64)" color="#789764"/>
+    <use href="#grass" transform="translate(739 110) scale(.83)" color="#9aaf82"/>
+    <use href="#grass" transform="translate(802 110) scale(.67)" color="#789764"/>
+  </g>
+</svg>
